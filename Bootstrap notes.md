@@ -6,7 +6,7 @@
 
 系统会自动分为最多12列：数字越大越宽
 
-![image-20201203105636079](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203105636079.png)
+![image-20201203105636079](image-20201203105636079.png)
 
 |              | 超小设备手机（<768px） | 小型设备平板电脑（≥768px）   | 中型设备台式电脑（≥992px）   | 大型设备台式电脑（≥1200px）  |
 | ------------ | ---------------------- | ---------------------------- | ---------------------------- | ---------------------------- |
@@ -20,19 +20,19 @@
 
 例：
 
-![image-20201203105735037](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203105735037.png)
+![image-20201203105735037](image-20201203105735037.png)
 
 ### 响应式列重叠
 
 可以使用 **.clearfix** class解决
 
-![image-20201203105750223](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203105750223.png)
+![image-20201203105750223](image-20201203105750223.png)
 
 ### 嵌套列
 
 为了在内容中嵌套默认的网格，请添加一个新的 **.row**，并在一个已有的 **.col-md-\*** 列内添加一组 **.col-md-\*** 列，这组列个数不能超过12
 
-![image-20201203105705978](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203105705978.png)   
+![image-20201203105705978](image-20201203105705978.png)   
 
 ### 列排序
 
@@ -110,13 +110,13 @@ Bootstrap 提供了下列类型的表单布局：
 
 <input type="text" class="form-control" id="name" placeholder="请输入名称">
 
-![image-20201203095541158](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203095541158.png)
+![image-20201203095541158](image-20201203095541158.png)
 
 #### 内联表单:
 
 如果需要创建一个表单，它的所有元素是内联的，向左对齐的，标签是并排的，请向 <form> 标签添加 class *.form-inline*
 
-![image-20201203095612974](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203095612974.png)
+![image-20201203095612974](image-20201203095612974.png)
 
 #### 水平表单:
 
@@ -124,9 +124,9 @@ Bootstrap 提供了下列类型的表单布局：
 - 把标签<label>和控件放在一个带有 class *.form-group* 的 <div> 中。
 - 向标签<label>添加 class *.control-label*。
 
-![image-20201203095337930](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203095337930.png)
+![image-20201203095337930](image-20201203095337930.png)
 
-![image-20201203095429195](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203095429195.png)
+![image-20201203095429195](image-20201203095429195.png)
 
 ### 表单控件
 
@@ -136,37 +136,37 @@ input 类型的支持，包括：*text、password、datetime、datetime-local、
 
 #### 输入框组input-group:
 
-![image-20201203141901205](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203141901205.png)
+![image-20201203141901205](image-20201203141901205.png)
 
 ##### 输入框组的大小
 
 向 **.input-group** 添加相对表单大小的 class（比如 **.input-group-lg、input-group-sm**）来改变输入框组的大小
 
-![image-20201203142053973](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203142053973.png)
+![image-20201203142053973](image-20201203142053973.png)
 
 #### 复选框和单选插件
 
 您可以把复选框和单选插件作为输入框组的前缀或者后缀元素
 
-![image-20201203142251675](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203142251675.png)
+![image-20201203142251675](image-20201203142251675.png)
 
 #### 输入框带按钮插件
 
-![image-20201203142349861](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203142349861.png)
+![image-20201203142349861](image-20201203142349861.png)
 
 #### 输入框带有下拉菜单
 
 在输入框组中添加带有下拉菜单的按钮，只需要简单地在一个 **.input-group-btn** class  中包裹按钮和下拉菜单即可
 
-![image-20201203142653273](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203142653273.png)
+![image-20201203142653273](image-20201203142653273.png)
 
-![image-20201203142705085](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203142705085.png)
+![image-20201203142705085](image-20201203142705085.png)
 
 #### 输入框带有分割的下拉菜单
 
-![image-20201203142854645](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203142854645.png)
+![image-20201203142854645](image-20201203142854645.png)
 
-![image-20201203142913643](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203142913643.png)
+![image-20201203142913643](image-20201203142913643.png)
 
 #### 文本框（Textarea):
 
@@ -178,9 +178,9 @@ textarea class="form-control" rows="3"
 
 从列表中选择若干个选项时，请使用 *checkbox*。只能选择一个选项，请使用 *radio*
 
-![image-20201203100702209](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203100702209.png)
+![image-20201203100702209](image-20201203100702209.png)
 
-![image-20201203100719699](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203100719699.png)
+![image-20201203100719699](image-20201203100719699.png)
 
 #### 选择框（Select):
 
@@ -211,21 +211,21 @@ textarea class="form-control" rows="3"
 
 Bootstrap 包含了错误、警告和成功消息的验证样式。只需要对父元素简单地添加适当的 class（*.has-warning、 .has-error 或 .has-success*）即可使用验证状态。
 
-![image-20201203101856285](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203101856285.png)
+![image-20201203101856285](image-20201203101856285.png)
 
-![image-20201203101948943](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203101948943.png)
+![image-20201203101948943](image-20201203101948943.png)
 
-![image-20201203102012252](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203102012252.png)
+![image-20201203102012252](image-20201203102012252.png)
 
 #### 表单控件大小
 
 使用 class *.input-lg* 和 *.col-lg-** ，class *.input-sm* 和 *.col-sm-**来设置表单的高度和宽度
 
-![image-20201203102225177](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203102225177.png)
+![image-20201203102225177](image-20201203102225177.png)
 
-![image-20201203102244286](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203102244286.png)
+![image-20201203102244286](image-20201203102244286.png)
 
-![image-20201203102306521](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203102306521.png)
+![image-20201203102306521](image-20201203102306521.png)
 
 #### 表单帮助文本
 
@@ -255,7 +255,7 @@ Bootstrap 表单控件可以在输入框 input 上有一个块级帮助文本。
 | .active      | 按钮被点击                              |      |
 | .disabled    | 禁用按钮                                |      |
 
-![image-20201203103002686](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203103002686.png)
+![image-20201203103002686](image-20201203103002686.png)
 
 下表列出了获得各种大小按钮的 class：
 
@@ -270,13 +270,13 @@ Bootstrap 表单控件可以在输入框 input 上有一个块级帮助文本。
 
 使用通用的关闭图标来关闭模态框和警告框
 
-![image-20201203104845625](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203104845625.png)
+![image-20201203104845625](image-20201203104845625.png)
 
 #### 插入符
 
 使用插入符表示下拉功能和方向
 
-![image-20201203105127860](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203105127860.png)
+![image-20201203105127860](image-20201203105127860.png)
 
 ### 按钮组
 
@@ -288,55 +288,55 @@ Bootstrap 表单控件可以在输入框 input 上有一个块级帮助文本。
 
 #### 基本的按钮组
 
-![image-20201203133701554](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203133701554.png)
+![image-20201203133701554](image-20201203133701554.png)
 
 #### 按钮工具栏
 
-![image-20201203133738774](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203133738774.png)
+![image-20201203133738774](image-20201203133738774.png)
 
 #### 按钮的大小
 
-![image-20201203133847550](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203133847550.png)
+![image-20201203133847550](image-20201203133847550.png)
 
 #### 垂直的按钮组
 
-![image-20201203133944476](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203133944476.png)
+![image-20201203133944476](image-20201203133944476.png)
 
 #### 内嵌下拉菜单的按钮组
 
 按钮组内嵌的按钮可以设置下拉菜单
 
-![image-20201203103826909](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203103826909.png)
+![image-20201203103826909](image-20201203103826909.png)
 
-![image-20201203103842386](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203103842386.png)
+![image-20201203103842386](image-20201203103842386.png)
 
 #### 内嵌下拉菜单
 
 使用下拉菜单，只需要在 class **.dropdown** 内加上下拉菜单即可
 
-![image-20201203132932870](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203132932870.png)
+![image-20201203132932870](image-20201203132932870.png)
 
-![image-20201203132948388](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203132948388.png)
+![image-20201203132948388](image-20201203132948388.png)
 
-![image-20201203133200195](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203133200195.png)
+![image-20201203133200195](image-20201203133200195.png)
 
-![image-20201203133223843](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203133223843.png)
+![image-20201203133223843](image-20201203133223843.png)
 
 #### 分割的按钮下拉菜单
 
-![image-20201203134429486](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203134429486.png)
+![image-20201203134429486](image-20201203134429486.png)
 
 #### 按钮下拉菜单的大小
 
 **.btn-lg、.btn-sm** 或 **.btn-xs**
 
-![image-20201203134624141](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203134624141.png)
+![image-20201203134624141](image-20201203134624141.png)
 
 #### 按钮上拉菜单
 
 菜单也可以往上拉伸的，只需要简单地向父 **.btn-group** 容器添加 **.dropup** 即可
 
-![image-20201203134844102](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203134844102.png)
+![image-20201203134844102](image-20201203134844102.png)
 
 
 
@@ -361,9 +361,9 @@ Bootstrap 提供了三个可对图片应用简单样式的 class：
 - 这会添加四个像素的内边距（padding）和一个灰色的边框。
 - 当鼠标悬停在图像上时，会动画显示出图像的轮廓。
 
-![image-20201204101810108](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201204101810108.png)
+![image-20201204101810108](image-20201204101810108.png)
 
-![image-20201204101822947](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201204101822947.png)
+![image-20201204101822947](image-20201204101822947.png)
 
 #### 添加自定义内容
 
@@ -373,47 +373,47 @@ Bootstrap 提供了三个可对图片应用简单样式的 class：
 - 在该 <div> 内，您可以添加任何您想要添加的东西。由于这是一个 <div>，我们可以使用默认的基于 span 的命名规则来调整大小。
 - 如果您想要给多个图像进行分组，请把它们放置在一个无序列表中，且每个列表项向左浮动。
 
-![image-20201204102414065](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201204102414065.png)
+![image-20201204102414065](image-20201204102414065.png)
 
-![image-20201204102430818](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201204102430818.png)
+![image-20201204102430818](image-20201204102430818.png)
 
 
 
 ## 七、Bootstrap 字体图标(Glyphicons)
 
-![image-20201203131729575](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203131729575.png)
+![image-20201203131729575](image-20201203131729575.png)
 
-![image-20201203131742619](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203131742619.png)
+![image-20201203131742619](image-20201203131742619.png)
 
 ### 图标列表：
 
-![image-20201203131346208](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203131346208.png)
+![image-20201203131346208](image-20201203131346208.png)
 
-![image-20201203131359464](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203131359464.png)
+![image-20201203131359464](image-20201203131359464.png)
 
-![image-20201203131415963](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203131415963.png)
+![image-20201203131415963](image-20201203131415963.png)
 
-![image-20201203131436514](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203131436514.png)
+![image-20201203131436514](image-20201203131436514.png)
 
-![image-20201203131455879](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203131455879.png)
+![image-20201203131455879](image-20201203131455879.png)
 
-![image-20201203131511576](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203131511576.png)
+![image-20201203131511576](image-20201203131511576.png)
 
-![image-20201203131530651](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203131530651.png)
+![image-20201203131530651](image-20201203131530651.png)
 
-![image-20201203131544300](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203131544300.png)
+![image-20201203131544300](image-20201203131544300.png)
 
-![image-20201203131604964](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203131604964.png)
+![image-20201203131604964](image-20201203131604964.png)
 
-![image-20201203131621167](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203131621167.png)
+![image-20201203131621167](image-20201203131621167.png)
 
 ### 定制字体尺寸
 
-![image-20201203131951625](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203131951625.png)
+![image-20201203131951625](image-20201203131951625.png)
 
 ### 应用文本阴影
 
-![image-20201203132320230](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203132320230.png)
+![image-20201203132320230](image-20201203132320230.png)
 
 ## 八、导航和导航栏
 
@@ -423,19 +423,19 @@ Bootstrap 提供了三个可对图片应用简单样式的 class：
 
 #### 表格导航
 
-![image-20201203144446534](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203144446534.png)
+![image-20201203144446534](image-20201203144446534.png)
 
 #### 胶囊式导航
 
-![image-20201203144544014](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203144544014.png)
+![image-20201203144544014](image-20201203144544014.png)
 
 ##### 垂直的胶囊式导航
 
-![image-20201203144656662](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203144656662.png)
+![image-20201203144656662](image-20201203144656662.png)
 
 ##### 与父元素等宽的胶囊式导航
 
-![image-20201203144937551](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203144937551.png)
+![image-20201203144937551](image-20201203144937551.png)
 
 #### 导航带下拉菜单
 
@@ -445,7 +445,7 @@ Bootstrap 提供了三个可对图片应用简单样式的 class：
 - 添加 class **.nav-tabs**。
 - 添加带有 **.dropdown-menu** class 的无序列表。
 
-![image-20201203145438195](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203145438195.png)
+![image-20201203145438195](image-20201203145438195.png)
 
 ### 导航栏
 
@@ -458,7 +458,7 @@ Bootstrap 提供了三个可对图片应用简单样式的 class：
 - 向 <div> 元素添加一个标题 class **.navbar-header**，内部包含了带有 class **navbar-brand** 的 <a> 元素。这会让文本看起来更大一号。
 - 为了向导航栏添加链接，只需要简单地添加带有 class **.nav、.navbar-nav** 的无序列表即可
 
-![image-20201203154320576](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203154320576.png)
+![image-20201203154320576](image-20201203154320576.png)
 
 #### 响应式的导航栏
 
@@ -466,33 +466,33 @@ Bootstrap 提供了三个可对图片应用简单样式的 class：
 
 折叠起来的导航栏实际上是一个带有 class **.navbar-toggle** 及两个 data- 元素的按钮。第一个是 **data-toggle**，用于告诉 JavaScript 需要对按钮做什么，第二个是 **data-target**，指示要切换到哪一个元素。三个带有 class **.icon-bar** 的 <span> 创建所谓的汉堡按钮。这些会切换为 **.nav-collapse** <div> 中的元素
 
-![image-20201203155339391](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203155339391.png)
+![image-20201203155339391](image-20201203155339391.png)
 
-![image-20201203155354264](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203155354264.png)
+![image-20201203155354264](image-20201203155354264.png)
 
 #### 导航栏中的表单
 
 使用 **.navbar-form** class
 
-![image-20201203170047226](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203170047226.png)
+![image-20201203170047226](image-20201203170047226.png)
 
 #### 导航栏中的按钮
 
 使用 class **.navbar-btn** 向不在 <form> 中的 <button> 元素添加按钮，按钮在导航栏上垂直居中
 
-![image-20201203170510377](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203170510377.png)
+![image-20201203170510377](image-20201203170510377.png)
 
 #### 导航栏中的文本
 
 在导航中包含文本字符串，请使用 class **.navbar-text**。这通常与 <p> 标签一起使用
 
-![image-20201203170702672](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203170702672.png)
+![image-20201203170702672](image-20201203170702672.png)
 
 #### 导航栏结合图标
 
 使用 class **glyphicon glyphicon-\*** 来设置图标
 
-![image-20201203171536753](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203171536753.png)
+![image-20201203171536753](image-20201203171536753.png)
 
 #### 导航栏定位
 
@@ -500,11 +500,11 @@ Bootstrap 提供了三个可对图片应用简单样式的 class：
 
 使用实用工具 class **.navbar-left** 或 **.navbar-right** 向左或向右对齐导航栏中的 *导航链接、表单、按钮或文本* 这些组件
 
-![image-20201203171946378](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203171946378.png)
+![image-20201203171946378](image-20201203171946378.png)
 
-![image-20201203172006906](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203172006906.png)
+![image-20201203172006906](image-20201203172006906.png)
 
-![image-20201203172025404](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203172025404.png)
+![image-20201203172025404](image-20201203172025404.png)
 
 ##### 固定到顶部
 
@@ -512,25 +512,25 @@ Bootstrap 提供了三个可对图片应用简单样式的 class：
 
 为了防止导航栏与页面主体中的其他内容的顶部相交错，请向 <body> 标签添加至少 50 像素的内边距
 
-![image-20201203172824991](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203172824991.png)
+![image-20201203172824991](image-20201203172824991.png)
 
 ##### 固定到底部
 
 向 **.navbar class** 添加 class **.navbar-fixed-bottom**
 
-![image-20201203173014405](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203173014405.png)
+![image-20201203173014405](image-20201203173014405.png)
 
 ##### 随页面滚动
 
 向 **.navbar class** 添加 class **.navbar-static-top**
 
-![image-20201203173117585](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203173117585.png)
+![image-20201203173117585](image-20201203173117585.png)
 
 #### 反色导航栏
 
 向 **.navbar** class 添加 **.navbar-inverse** class 即可
 
-![image-20201203173242435](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203173242435.png)
+![image-20201203173242435](image-20201203173242435.png)
 
 ### 面包屑导航
 
@@ -538,7 +538,7 @@ Bootstrap 提供了三个可对图片应用简单样式的 class：
 
 表示当前页面在导航层次结构内的位置
 
-![image-20201203173710759](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201203173710759.png)
+![image-20201203173710759](image-20201203173710759.png)
 
 ## 九、分页
 
@@ -553,13 +553,13 @@ Bootstrap 提供了三个可对图片应用简单样式的 class：
 
 使用class.label来显示标签
 
-![image-20201204094151614](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201204094151614.png)
+![image-20201204094151614](image-20201204094151614.png)
 
 徽章与标签相似，主要的区别在于徽章的边角更加圆滑
 
 只需要把 **<span class="badge">** 添加到链接、Bootstrap 导航等这些元素上即可
 
-![image-20201204094709891](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201204094709891.png)
+![image-20201204094709891](image-20201204094709891.png)
 
 ## 十一、超大屏幕
 
@@ -571,7 +571,7 @@ Bootstrap 提供了三个可对图片应用简单样式的 class：
 
 在网页标题四周添加适当的间距
 
-![image-20201204100554278](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201204100554278.png)
+![image-20201204100554278](image-20201204100554278.png)
 
 ## 十三、警告
 
@@ -579,7 +579,7 @@ Bootstrap 提供了三个可对图片应用简单样式的 class：
 
 通过创建一个 <div>，并向其添加一个 **.alert** class 和四个上下文 class（即 **.alert-success、.alert-info、.alert-warning、.alert-danger**）之一，来添加一个基本的警告框
 
-![image-20201204103255724](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201204103255724.png)
+![image-20201204103255724](image-20201204103255724.png)
 
 ### 可取消的警告
 
@@ -587,14 +587,14 @@ Bootstrap 提供了三个可对图片应用简单样式的 class：
 - 同时向上面的 <div> class 添加可选的 **.alert-dismissable**。
 - 添加一个关闭按钮。
 
-![image-20201204103632249](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201204103632249.png)
+![image-20201204103632249](image-20201204103632249.png)
 
 ### 带连接的警告
 
 - 通过创建一个 <div>，并向其添加一个 **.alert** class 和四个上下文 class（即 **.alert-success、.alert-info、.alert-warning、.alert-danger**）之一，来添加一个基本的警告框。
 - 使用 **.alert-link** 实体类来快速提供带有匹配颜色的链接。
 
-![image-20201204103857916](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201204103857916.png)
+![image-20201204103857916](image-20201204103857916.png)
 
 ## 十四、进度条
 
@@ -606,7 +606,7 @@ Bootstrap 提供了三个可对图片应用简单样式的 class：
 
 添加一个带有百分比表示的宽度的 style 属性，例如 style="width: 60%"; 表示进度条在 60% 的位置
 
-![image-20201204105020867](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201204105020867.png)
+![image-20201204105020867](image-20201204105020867.png)
 
 ### 交替的进度条
 
@@ -622,27 +622,27 @@ Bootstrap 提供了三个可对图片应用简单样式的 class：
 
 添加一个带有百分比表示的宽度的 style 属性，例如 style="60%"; 表示进度条在 60% 的位置
 
-![image-20201204105203728](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201204105203728.png)
+![image-20201204105203728](image-20201204105203728.png)
 
 ## 十五、多媒体对象
 
 使用 `.media-left` 类让多媒体对象(图片)来实现左对齐，同样 `.media-right` 类实现了右对齐
 
-![image-20201204111332000](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201204111332000.png)
+![image-20201204111332000](image-20201204111332000.png)
 
 ### 顶部、底部、居中对齐
 
-![image-20201204111858673](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201204111858673.png)
+![image-20201204111858673](image-20201204111858673.png)
 
-![image-20201204111914231](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201204111914231.png)
+![image-20201204111914231](image-20201204111914231.png)
 
 ### 内嵌多媒体对象
 
-![image-20201204112152888](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201204112152888.png)
+![image-20201204112152888](image-20201204112152888.png)
 
-![image-20201204112208094](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201204112208094.png)
+![image-20201204112208094](image-20201204112208094.png)
 
-![image-20201204112228456](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201204112228456.png)
+![image-20201204112228456](image-20201204112228456.png)
 
 ## 十六、列表组
 
@@ -651,23 +651,23 @@ Bootstrap 提供了三个可对图片应用简单样式的 class：
 - 向元素 <ul> 添加 class **.list-group**。
 - 向 <li> 添加 class **.list-group-item**。
 
-![image-20201204113025860](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201204113025860.png)
+![image-20201204113025860](image-20201204113025860.png)
 
 #### 列表组添加勋章
 
 只需要在 <li> 元素中添加 **<span class="badge">** 即可
 
-![image-20201204113134866](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201204113134866.png)
+![image-20201204113134866](image-20201204113134866.png)
 
 #### 列表组水平显示
 
-![image-20201204113339539](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201204113339539.png)
+![image-20201204113339539](image-20201204113339539.png)
 
 ## 十七、面板
 
 创建一个基本的面板，只需要向 <div> 元素添加 class **.panel** 和 class **.panel-default** 即可
 
-![image-20201204131917274](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201204131917274.png)
+![image-20201204131917274](image-20201204131917274.png)
 
 ### 面板标题
 
@@ -675,21 +675,21 @@ Bootstrap 提供了三个可对图片应用简单样式的 class：
 
 使用带有 **.panel-title** class 的 <h1>-<h6> 来添加预定义样式的标题
 
-![image-20201204132304827](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201204132304827.png)
+![image-20201204132304827](image-20201204132304827.png)
 
 ### 面板脚注
 
 把按钮或者副文本放在带有 class **.panel-footer** 的 <div> 中即可
 
-![image-20201204132444105](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201204132444105.png)
+![image-20201204132444105](image-20201204132444105.png)
 
 ### 面板带语境色彩
 
 使用语境状态类 **panel-primary、panel-success、panel-info、panel-warning、panel-danger**，来设置带语境色彩的面板
 
-![image-20201204132614621](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201204132614621.png)
+![image-20201204132614621](image-20201204132614621.png)
 
-![image-20201204132630475](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201204132630475.png)
+![image-20201204132630475](image-20201204132630475.png)
 
 ### 面板带表格
 
@@ -699,15 +699,15 @@ Bootstrap 提供了三个可对图片应用简单样式的 class：
 
 不带边框分割，不包含<div class="panel-body">
 
-![image-20201204133147661](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201204133147661.png)
+![image-20201204133147661](image-20201204133147661.png)
 
-![image-20201204133202898](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201204133202898.png)
+![image-20201204133202898](image-20201204133202898.png)
 
 ### 面板带列表组
 
-![image-20201204133303951](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201204133303951.png)
+![image-20201204133303951](image-20201204133303951.png)
 
-![image-20201204133320671](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201204133320671.png)
+![image-20201204133320671](image-20201204133320671.png)
 
 ## 十八、插件
 
@@ -735,9 +735,9 @@ options = ‘toggle’/'show'/'hide'  手动切换模态框/手动打开模态�
 | hide.bs.modal   | 当调用 hide 实例方法时触发。                          | `$('#identifier').on('hide.bs.modal', function () {  // 执行一些动作... })` |
 | hidden.bs.modal | 当模态框完全对用户隐藏时触发。                        | `$('#identifier').on('hidden.bs.modal', function () {  // 执行一些动作... })` |
 
-![image-20201204145103263](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201204145103263.png)
+![image-20201204145103263](image-20201204145103263.png)
 
-![image-20201204145134445](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201204145134445.png)
+![image-20201204145134445](image-20201204145134445.png)
 
 ## 二十、下拉菜单
 
@@ -838,7 +838,7 @@ $('[data-spy="scroll"]').each(function () {
 </div>
 ```
 
-![image-20201204155144676](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201204155144676.png)
+![image-20201204155144676](image-20201204155144676.png)
 
 ### 滚动监听更新：
 
@@ -1002,7 +1002,7 @@ $('[data-spy="scroll"]').each(function () {
 </script>
 ```
 
-![image-20201204164713873](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201204164713873.png)
+![image-20201204164713873](image-20201204164713873.png)
 
 #### 滚动水平监听：
 
@@ -1086,7 +1086,7 @@ $('[data-spy="scroll"]').each(function () {
 </html>
 ```
 
-![image-20201204165733284](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201204165733284.png)
+![image-20201204165733284](image-20201204165733284.png)
 
 #### 滚动垂直监听：
 
@@ -1176,13 +1176,6 @@ $('[data-spy="scroll"]').each(function () {
 </html>
 ```
 
-![image-20201204165832497](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201204165832497.png)
+![image-20201204165832497](image-20201204165832497.png)
 
 ## 二十二、标签页Tab
-
-
-
-
-
-
-
